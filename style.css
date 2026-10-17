@@ -29,7 +29,8 @@ table { width: 100%; border-collapse: collapse; font-size: 15px; margin: 8px 0 1
 th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .muted { color: var(--ink-soft); font-size: 14px; }
 footer { color: var(--ink-soft); font-size: 13px; margin-top: 32px; }
-a { color: var(--accent); }
+a { color: var(--accent); overflow-wrap: anywhere; }
+.button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; padding: 10px 18px; border-radius: 10px; }
 
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .table-wrap table { min-width: 560px; }
